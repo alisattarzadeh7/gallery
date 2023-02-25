@@ -62,7 +62,6 @@ const login: NextPage<IloginProps> = () => {
 
     return (
         <div>
-a
             <form onSubmit={handleSubmit(handleLogin)}>
                 <div className="flex justify-center items-center w-screen h-screen flex-col">
                     <h1 className="text-5xl">Login</h1>
