@@ -5,8 +5,6 @@ import layoutReducer from "~/src/Utils/Redux/Slices/layout";
 const store = configureStore({
     reducer: {
         layout:layoutReducer,
-        // comments: commentsReducer,
-        // users: usersReducer,
     },
 })
 
